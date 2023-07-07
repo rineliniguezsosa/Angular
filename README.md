@@ -63,3 +63,7 @@ ng generate component <component-name>
 ```
 
 ## Crea una interfaz typescript mediante angular cli
+
+```shell
+ng generate interface <nombre-interfaz>
+```
