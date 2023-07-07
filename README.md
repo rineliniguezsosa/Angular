@@ -18,3 +18,7 @@ npm install -g @angular/cli
 Sigue estos pasos para configurar y ejecutar el proyecto localmente:
 
 1. Clona este repositorio en tu máquina local:
+
+```shell
+git clone https://github.com/rineliniguezsosa/Angular.git
+```
