@@ -47,3 +47,5 @@ ng serve
 - components(HTML + class)
 - services(logica de negocio)
 - Modulos(interactuan y ultimadamente renderizan la vista en el navegador)
+
+## Components
