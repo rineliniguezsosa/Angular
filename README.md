@@ -16,3 +16,5 @@ npm install -g @angular/cli
 ## Configuración del Proyecto
 
 Sigue estos pasos para configurar y ejecutar el proyecto localmente:
+
+1. Clona este repositorio en tu máquina local:
