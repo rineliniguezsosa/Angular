@@ -12,3 +12,5 @@ Antes de comenzar, asegúrate de tener instalado lo siguiente:
 ```shell
 npm install -g @angular/cli
 ```
+
+## Configuración del Proyecto
