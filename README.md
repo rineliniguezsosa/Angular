@@ -70,4 +70,6 @@ ng generate interface <nombre-interfaz>
 
 ## Entradas
 
-Las entradas permiten que los componentes compartan datos. La dirección del intercambio de datos es del componente principal al componente secundario.  
+Las entradas permiten que los componentes compartan datos. La dirección del intercambio de datos es del componente principal al componente secundario.
+
+#### Para recibir datos de un componente principal, un componente secundario debe utilizar un decorador especial
