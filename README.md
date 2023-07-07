@@ -42,3 +42,5 @@ npm run start
 ```
 
 ## Terminologia angular
+
+-Modulo(uno ó más componentes y servicios)
