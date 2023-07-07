@@ -51,3 +51,7 @@ ng serve
 ## Components
 
 cada componente en angular consiste en:
+
+- Template(HTML)
+- Class(Typescript, información y métodos)
+- CSS(usado para el template)
