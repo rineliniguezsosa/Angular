@@ -24,3 +24,7 @@ git clone https://github.com/rineliniguezsosa/Angular.git
 ```
 
 2. Navega al directorio del proyecto:
+
+```shell
+cd angular-playground
+```
