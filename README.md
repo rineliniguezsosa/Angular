@@ -55,3 +55,5 @@ cada componente en angular consiste en:
 - Template(HTML)
 - Class(Typescript, información y métodos)
 - CSS(usado para el template)
+
+la mejor forma de crear un componente es con angular cli
