@@ -49,3 +49,5 @@ ng serve
 - Modulos(interactuan y ultimadamente renderizan la vista en el navegador)
 
 ## Components
+
+cada componente en angular consiste en:
