@@ -28,3 +28,5 @@ git clone https://github.com/rineliniguezsosa/Angular.git
 ```shell
 cd angular-playground
 ```
+
+3. Instala las dependencias del proyecto:
