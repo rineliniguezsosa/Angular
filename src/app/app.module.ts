@@ -5,7 +5,7 @@ import { AppComponent } from './app.component';
 import { HomeComponentComponent } from './home-component/home-component.component';
 
 @NgModule({
-  declarations: [
+  declarations: [ //Aqui establecemos los componentes del modulo
     AppComponent,
     HomeComponentComponent
   ],
