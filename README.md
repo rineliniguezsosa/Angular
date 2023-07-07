@@ -30,3 +30,7 @@ cd angular-playground
 ```
 
 3. Instala las dependencias del proyecto:
+
+```shell
+npm install
+```
