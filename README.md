@@ -61,3 +61,5 @@ la mejor forma de crear un componente es con angular cli
 ```shell
 ng generate component <component-name>
 ```
+
+## Crea una interfaz typescript mediante angular cli
