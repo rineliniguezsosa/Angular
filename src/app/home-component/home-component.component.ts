@@ -7,7 +7,7 @@ import { Housinglocation } from '../housinglocation';
   styleUrls: ['./home-component.component.css']
 })
 export class HomeComponentComponent {
-  housingLocation = {
+  housingLocation : Housinglocation = {
     id: 9999,
     name: 'Test Home',
     city: 'Test city',
