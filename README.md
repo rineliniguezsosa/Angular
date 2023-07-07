@@ -34,3 +34,5 @@ cd angular-playground
 ```shell
 npm install
 ```
+
+## Ejecutar el Proyecto
