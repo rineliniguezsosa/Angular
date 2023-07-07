@@ -40,3 +40,5 @@ npm install
 ```shell
 npm run start
 ```
+
+## Terminologia angular
