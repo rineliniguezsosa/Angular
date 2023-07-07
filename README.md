@@ -57,3 +57,7 @@ cada componente en angular consiste en:
 - CSS(usado para el template)
 
 la mejor forma de crear un componente es con angular cli
+
+```shell
+ng generate component <component-name>
+```
