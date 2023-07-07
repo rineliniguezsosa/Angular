@@ -67,3 +67,5 @@ ng generate component <component-name>
 ```shell
 ng generate interface <nombre-interfaz>
 ```
+
+## Entradas
