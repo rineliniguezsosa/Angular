@@ -75,3 +75,6 @@ Las entradas permiten que los componentes compartan datos. La dirección del int
 #### Para recibir datos de un componente principal, un componente secundario debe utilizar un decorador especial 
 
 >@Input
+
+
+## Propiedades
