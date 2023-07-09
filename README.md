@@ -77,7 +77,7 @@ Las entradas permiten que los componentes compartan datos. La dirección del int
 >@Input
 
 
-## Propiedades
+## Propiedades vinculadas
 
 ## Interpolation
 
