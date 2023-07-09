@@ -17,4 +17,5 @@ export class HomeComponentComponent {
     wifi: true,
     laundry: false,
   };
+  public value = "rinel iñiguez"
 }
