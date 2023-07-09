@@ -79,6 +79,8 @@ Las entradas permiten que los componentes compartan datos. La dirección del int
 
 ## Propiedades vinculadas
 
+Una propiedad se vincula con el DOM
+
 ## Interpolation
 
 La interpolación es simplemente vincular información de una clase a un template
