@@ -80,3 +80,5 @@ Las entradas permiten que los componentes compartan datos. La dirección del int
 ## Propiedades
 
 ## Interpolation
+
+La interpolación es simplemente vincular información de una clase a un template feat(docs): esatble
