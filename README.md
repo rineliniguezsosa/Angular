@@ -88,3 +88,5 @@ Una propiedad se vincula con el DOM
 La interpolación es simplemente vincular información de una clase a un template
 
 ## Directiva ngFor
+
+se usa para repetir dinámicamente datos en una plantilla.(for:ngFor)
