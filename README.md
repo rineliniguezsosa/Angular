@@ -93,3 +93,5 @@ La interpolación es simplemente vincular información de una clase a un templat
 se usa para repetir dinámicamente datos en una plantilla.(for:ngFor)
 
 ## Servicios
+
+Los servicios de Angular le brindan una forma de separar los datos y las funciones de la aplicación de Angular que pueden usar varios componentes de su aplicación. Para ser utilizado por múltiples componentes, un servicio debe ser **inyectable** . Los servicios que son inyectables y utilizados por un componente se convierten en dependencias de ese componente. El componente depende de esos servicios y no puede funcionar sin ellos.
