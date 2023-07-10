@@ -99,3 +99,5 @@ Los servicios de Angular le brindan una forma de separar los datos y las funcion
 ```shell
 ng generate service <nombre-de-servicio>
 ```
+
+## Decorador @Inject
