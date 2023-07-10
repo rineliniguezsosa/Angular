@@ -8,7 +8,7 @@ export class HousingService {
 
   constructor() { }
 
-  getAllHousingLocations() {
+  getAllHousingLocations():Housinglocation[] {
     return this.housingLocationList;
   }
 }
