@@ -1,4 +1,4 @@
-import { Component,Inject } from '@angular/core';
+import { Component,inject } from '@angular/core';
 import { Housinglocation } from '../housinglocation';
 import { HousingService } from '../housing.service'; 
 
