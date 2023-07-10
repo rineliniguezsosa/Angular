@@ -86,3 +86,5 @@ Una propiedad se vincula con el DOM
 ## Interpolation
 
 La interpolación es simplemente vincular información de una clase a un template
+
+## Directiva ngFor
