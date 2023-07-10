@@ -7,7 +7,7 @@ import { Housinglocation } from '../housinglocation';
   styleUrls: ['./home-component.component.css']
 })
 export class HomeComponentComponent {
-  housingLocation : Housinglocation = {
+  housingLocation : Housinglocation = [
     id: 9999,
     name: 'Test Home',
     city: 'Test city',
@@ -16,6 +16,6 @@ export class HomeComponentComponent {
     availableUnits: 99,
     wifi: true,
     laundry: false,
-  };
+  ];
   public value = "rinel iñiguez" //Propiedad vinculada
 }
