@@ -7,4 +7,8 @@ import { Housinglocation } from './housinglocation'
 export class HousingService {
 
   constructor() { }
+
+  getAllHousingLocations() {
+    return this.housingLocationList;
+  }
 }
