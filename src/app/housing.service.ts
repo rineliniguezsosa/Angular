@@ -11,4 +11,8 @@ export class HousingService {
   getAllHousingLocations():Housinglocation[] {
     return this.housingLocationList;
   }
+
+  getHousingLocationById(id: number) {
+    return this.housingLocationList.find(housingLocation => housingLocation.id === id);
+  }
 }
