@@ -76,6 +76,7 @@ Las entradas permiten que los componentes compartan datos. La dirección del int
 
 >@Input
 
+**La propiedad de entrada está vinculada a una propiedad DOM en la plantilla. Durante la detección de cambios, Angular actualiza automáticamente la propiedad de datos con el valor de la propiedad DOM.**
 
 ## Propiedades vinculadas
 
