@@ -117,6 +117,6 @@ export class HomeComponentComponent {
   public value = "rinel iñiguez" //Propiedad vinculada
 
   constructor(){
-    
+    this.housingLocationList = this.housingService.getAllHousingLocations();
   }
 }
