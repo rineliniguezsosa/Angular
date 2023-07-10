@@ -7,7 +7,7 @@ import { Housinglocation } from '../housinglocation';
   styleUrls: ['./home-component.component.css']
 })
 export class HomeComponentComponent {
-  housingLocationList : Housinglocation = [
+  housingLocationList : Housinglocation[] = [
     {
       id: 0,
       name: 'Acme Fresh Start Housing',
