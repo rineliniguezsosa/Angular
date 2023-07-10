@@ -115,4 +115,8 @@ export class HomeComponentComponent {
   housingService:HousingService = inject(HousingService) //extraemos la información de los servicios
 
   public value = "rinel iñiguez" //Propiedad vinculada
+
+  constructor(){
+    
+  }
 }
