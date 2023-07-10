@@ -101,3 +101,5 @@ ng generate service <nombre-de-servicio>
 ```
 
 ## Decorador @Inject
+
+El decorador @Inject permite pasar información ó funcionalidad de los servicios entre los componentes
