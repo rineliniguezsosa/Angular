@@ -123,3 +123,5 @@ Configuramos y gestionamos la rutas en Angular router
 Definimos la configuración de rutas de la aplicación,la clase Routes proporciona una estructura para definir la rutas
 
 ### routerLink(Link-React)
+
+Nos permite navegar hacia la ruta donde mostraremos el contenido html ó template
