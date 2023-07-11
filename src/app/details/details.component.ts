@@ -11,6 +11,6 @@ export class DetailsComponent {
     housingLocationId = -1;
 
     constructor(){
-      
+      this.housingLocationId = Number(this.route.snapshot.params['id'])
     }
 }
