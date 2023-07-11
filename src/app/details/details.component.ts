@@ -8,4 +8,5 @@ import { Component,inject } from '@angular/core';
 })
 export class DetailsComponent {
     route: ActivatedRoute = inject(ActivatedRoute)
+    housingLocationId = -1;
 }
