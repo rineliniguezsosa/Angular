@@ -7,5 +7,5 @@ import { Component,inject } from '@angular/core';
   styleUrls: ['./details.component.css']
 })
 export class DetailsComponent {
-
+    route: ActivatedRoute = inject(ActivatedRoute)
 }
