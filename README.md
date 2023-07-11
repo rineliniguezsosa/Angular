@@ -155,3 +155,5 @@ Esta directiva se encargara de mostrar el contenido de los componentes correspon
 ```html
 <router-outlet></router-outlet>
 ```
+
+### Acceso a parámetros
