@@ -110,4 +110,4 @@ La función inject permite pasar información ó funcionalidad de los servicios 
 
 Habilita la funcionalidad de Router en la aplicación, permite configurar un conjunto de rutas
 
-### BrowserModule
+### RouterModule
