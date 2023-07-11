@@ -171,3 +171,5 @@ Brinda acceso a información sobre una ruta asociada a un componente
 ### FormControl
 
 Realiza un seguimiento del valor y el estado de validación de un control de formulario individual.
+
+### FormGroup
