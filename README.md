@@ -151,3 +151,7 @@ Nos permite navegar hacia la ruta donde mostraremos el contenido html ó templat
 ### Directiva router-outlet
 
 Esta directiva se encargara de mostrar el contenido de los componentes correspondientes a las rutas definidas, además permite manejar las rutas aninadas como el componente **Outlet** de Reactjs
+
+```html
+<router-outlet></router-outlet>
+```
