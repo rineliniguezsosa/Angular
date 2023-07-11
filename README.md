@@ -135,7 +135,9 @@ export const Approuter : Routes = [
     }
 
 ```
-
+**path**: es la ruta por la cual accederemos al template<br>
+**component**: es la referencia de la clase por la cual accederemos al template(html) cuando la ruta coincida con la busqueda<br>
+**title**: es el titulo para asociar con la pagina
 ### routerLink(Link-React)
 
 Nos permite navegar hacia la ruta donde mostraremos el contenido html ó template
