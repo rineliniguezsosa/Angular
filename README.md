@@ -163,3 +163,5 @@ Esta directiva se encargara de mostrar el contenido de los componentes correspon
 Brinda acceso a información sobre una ruta asociada a un componente 
 
 [Observa la lista de propiedades que se pueden extraer mediante ActivatedRoute](https://next.angular.io/api/router/ActivatedRoute#description)
+
+**ActivatedRoute es una clase de angular el cual ya tiene soporte de inyección de dependencias**
