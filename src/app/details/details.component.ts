@@ -11,7 +11,7 @@ import { Housinglocation } from '../housinglocation';
 export class DetailsComponent {
     route: ActivatedRoute = inject(ActivatedRoute)
     housingService = inject(HousingService);
-    housingLocationId = -1;
+    housingLocation = Housinglocation | undefined ;
 
     constructor(){
       this.housingLocationId = Number(this.route.snapshot.params['id'])
