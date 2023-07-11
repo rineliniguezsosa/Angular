@@ -1,6 +1,7 @@
 import { ActivatedRoute } from '@angular/router';
 import { Component,inject } from '@angular/core';
 import { HousingService } from '../housing.service';
+import { Housinglocation } from '../housinglocation';
 
 @Component({
   selector: 'app-details',
