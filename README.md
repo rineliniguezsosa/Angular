@@ -105,3 +105,5 @@ ng generate service <nombre-de-servicio>
 La función inject permite pasar información ó funcionalidad de los servicios entre los componentes
 
 ## Angular router
+
+### ProvideRouter 
