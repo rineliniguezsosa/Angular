@@ -142,4 +142,4 @@ export const Approuter : Routes = [
 
 Nos permite navegar hacia la ruta donde mostraremos el contenido html ó template,routerLink es un enlace
 
-**en angular routerLink es una directiva**
+**en angular routerLink se define como una directiva**
