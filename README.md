@@ -102,6 +102,6 @@ ng generate service <nombre-de-servicio>
 
 ## inject function
 
-El decorador @Inject permite pasar información ó funcionalidad de los servicios entre los componentes
+La función inject permite pasar información ó funcionalidad de los servicios entre los componentes
 
 ## Angular router
