@@ -117,3 +117,5 @@ Configuramos y gestionamos la rutas en Angular router
 #### Métodos de configuración
 
 **forRoot**: es un método utilizado para configurar las rutas principales, toma un arreglo de rutas definidas
+
+### Routes
