@@ -110,7 +110,7 @@ La función inject permite pasar información ó funcionalidad de los servicios 
 
 Habilita la funcionalidad de Router en la aplicación, permite configurar un conjunto de rutas
 
-### RouterModule
+### RouterModule(Routes-React)
 
 Configuramos y gestionamos la rutas en Angular router
 
@@ -118,7 +118,7 @@ Configuramos y gestionamos la rutas en Angular router
 
 **forRoot**: es un método utilizado para configurar las rutas principales, toma un arreglo de rutas definidas
 
-### Routes
+### Routes(Route-React)
 
 Definimos la configuración de rutas de la aplicación,la clase Routes proporciona una estructura para definir la rutas
 
