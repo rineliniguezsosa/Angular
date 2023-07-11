@@ -167,3 +167,5 @@ Brinda acceso a información sobre una ruta asociada a un componente
 **ActivatedRoute es una clase de angular el cual ya tiene soporte de inyección de dependencias**
 
 ## Angular Forms
+
+### FormControl
