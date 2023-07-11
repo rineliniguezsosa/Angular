@@ -122,6 +122,20 @@ Configuramos y gestionamos la rutas en Angular router
 
 Definimos la configuración de rutas de la aplicación,la clase Routes proporciona una estructura para definir la rutas
 
+**Ejemplo de como configurar una ruta**
+```typescript
+import { Routes } from '@angular/router';
+import { DetailsComponent } from './details/details.component';
+ 
+export const Approuter : Routes = [
+    {
+        path: 'detalles',
+        component: DetailsComponent,
+        title: 'Detalles'
+    }
+
+```
+
 ### routerLink(Link-React)
 
 Nos permite navegar hacia la ruta donde mostraremos el contenido html ó template
