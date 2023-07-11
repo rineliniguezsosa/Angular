@@ -169,3 +169,5 @@ Brinda acceso a información sobre una ruta asociada a un componente
 ## Angular Forms
 
 ### FormControl
+
+Realiza un seguimiento del valor y el estado de validación de un control de formulario individual.
