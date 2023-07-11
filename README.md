@@ -140,4 +140,4 @@ export const Approuter : Routes = [
 **title**: es el titulo para asociar con la pagina
 ### routerLink(Link-React)
 
-Nos permite navegar hacia la ruta donde mostraremos el contenido html ó template
+Nos permite navegar hacia la ruta donde mostraremos el contenido html ó template,routerLink es un enlace
