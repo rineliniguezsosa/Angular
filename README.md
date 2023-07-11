@@ -145,5 +145,5 @@ Nos permite navegar hacia la ruta donde mostraremos el contenido html ó templat
 **en angular routerLink se define como una directiva**
 
 ```html
-<a [routerLink]="/home">Home</a>
+<a [routerLink]="['/home']">Home</a>
 ```
