@@ -147,3 +147,5 @@ Nos permite navegar hacia la ruta donde mostraremos el contenido html ó templat
 ```html
 <a [routerLink]="['/home']">Home</a>
 ```
+
+## Directiva <router-outlet></router-outlet>
