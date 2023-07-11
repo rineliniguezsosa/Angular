@@ -113,3 +113,5 @@ Habilita la funcionalidad de Router en la aplicación, permite configurar un con
 ### RouterModule
 
 Configuramos y gestionamos la rutas en Angular router
+
+#### Métodos de configuración
