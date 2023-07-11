@@ -159,3 +159,5 @@ Esta directiva se encargara de mostrar el contenido de los componentes correspon
 ### Acceso a parámetros
 
 #### ActivatedRoute
+
+Brinda acceso a información sobre una ruta asociada a un componente 
