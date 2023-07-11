@@ -4,5 +4,9 @@ import { DetailsComponent } from './details/details.component';
  
 
 export const Approuter : Routes = [
-
+    {
+        path: '',
+        component: HomeComponentComponent,
+        title: 'Home page'
+    },
 ]
