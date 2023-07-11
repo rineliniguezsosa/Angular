@@ -9,4 +9,9 @@ export const Approuter : Routes = [
         component: HomeComponentComponent,
         title: 'Home page'
     },
+    {
+        path: 'details/:id',
+        component: DetailsComponent,
+        title: 'Home details'
+    }
 ]
