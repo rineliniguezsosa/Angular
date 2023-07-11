@@ -6,6 +6,7 @@ import { HomeComponentComponent } from './home-component/home-component.componen
 import { HousingLocationComponent } from './housing-location/housing-location.component';
 import { DetailsComponent } from './details/details.component';
 import { RouterModule } from '@angular/router';
+import { Approuter } from './Approuter';
 
 @NgModule({
   declarations: [ //Aqui establecemos los componentes de la aplicación
