@@ -84,6 +84,8 @@ Una propiedad se vincula con el DOM
 
 [Consulta la lista de propiedades DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)
 
+**Los valores de una propiedad pueden cambiar dinamicamente,estará pendiente a los cambios** 
+
 ## Interpolation
 
 La interpolación es simplemente vincular información de una clase a un template
