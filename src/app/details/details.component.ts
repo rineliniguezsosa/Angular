@@ -25,7 +25,11 @@ export class DetailsComponent {
       })
     }
 
-    SendForm(firstName:string,lastName:string,email:string):void{
-      console.log("Resulatdos",firstName,lastName,email)
+    SendForm():void{
+      if(){
+
+      }else{
+
+      }
     }
 }
