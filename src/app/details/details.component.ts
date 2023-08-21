@@ -1,4 +1,4 @@
-import { FormGroup,FormBuilder } from '@angular/forms';
+import { FormGroup,FormBuilder,Validators } from '@angular/forms';
 import { ActivatedRoute } from '@angular/router';
 import { Component,inject } from '@angular/core';
 import { HousingService } from '../housing.service';
@@ -19,7 +19,7 @@ export class DetailsComponent {
       this.housingLocation = this.housingService.getHousingLocationById(housingLocationId)
 
       this.applyForm = this.formservice.group({
-        
+
       })
     }
 
