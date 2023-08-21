@@ -29,7 +29,7 @@ export class DetailsComponent {
       if(this.applyForm.valid){
         console.log(this.applyForm.value);
       }else{
-
+        this.applyForm.markAllAsTouched()
       }
     }
 }
