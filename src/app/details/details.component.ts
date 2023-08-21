@@ -18,4 +18,8 @@ export class DetailsComponent {
       const housingLocationId = Number(this.route.snapshot.params['id'])
       this.housingLocation = this.housingService.getHousingLocationById(housingLocationId)
     }
+
+    SendForm():void{
+      console.log("aqui se envian los datos del formulario")
+    }
 }
