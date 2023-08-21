@@ -26,8 +26,8 @@ export class DetailsComponent {
     }
 
     SendForm():void{
-      if(){
-
+      if(this.applyForm.valid){
+        console.log(this.applyForm.value);
       }else{
 
       }
