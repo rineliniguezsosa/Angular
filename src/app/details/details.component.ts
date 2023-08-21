@@ -26,6 +26,6 @@ export class DetailsComponent {
     }
 
     SendForm(firstName:string,lastName:string,email:string):void{
-      console.log("aqui se envian los datos del formulario")
+      console.log("Resulatdos",firstName,lastName,email)
     }
 }
