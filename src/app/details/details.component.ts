@@ -25,7 +25,7 @@ export class DetailsComponent {
       })
     }
 
-    SendForm():void{
+    SendForm(firstName:string,lastName:string,email:string):void{
       console.log("aqui se envian los datos del formulario")
     }
 }
