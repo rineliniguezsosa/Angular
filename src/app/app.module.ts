@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { HomeComponentComponent } from './home-component/home-component.component';
 import { HousingLocationComponent } from './housing-location/housing-location.component';
 import { DetailsComponent } from './details/details.component';
+import { ReactiveFormsModule } from '@angular/forms'
 import { RouterModule } from '@angular/router';
 import { Approuter } from './Approuter';
 
@@ -17,7 +18,8 @@ import { Approuter } from './Approuter';
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot(Approuter)
+    RouterModule.forRoot(Approuter),
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
