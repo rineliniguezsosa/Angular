@@ -17,6 +17,10 @@ export class DetailsComponent {
     constructor(private formservice:FormBuilder){
       const housingLocationId = Number(this.route.snapshot.params['id'])
       this.housingLocation = this.housingService.getHousingLocationById(housingLocationId)
+
+      this.applyForm = this.formservice.group({
+        
+      })
     }
 
     SendForm():void{
