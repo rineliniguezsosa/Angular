@@ -14,7 +14,7 @@ export class DetailsComponent {
     housingService = inject(HousingService);
     housingLocation : Housinglocation | undefined ;
 
-    constructor(){
+    constructor(private formservice:FormBuilder){
       const housingLocationId = Number(this.route.snapshot.params['id'])
       this.housingLocation = this.housingService.getHousingLocationById(housingLocationId)
     }
