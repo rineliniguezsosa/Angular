@@ -21,6 +21,7 @@ export class DetailsComponent {
       this.applyForm = this.formservice.group({
           firstName:['',[Validators.required]],
           lastName:['',[Validators.required]],
+          email:['',[Validators.required]]
       })
     }
 
