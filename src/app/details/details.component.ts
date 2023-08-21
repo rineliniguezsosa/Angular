@@ -32,4 +32,9 @@ export class DetailsComponent {
         this.applyForm.markAllAsTouched()
       }
     }
+
+    //get value and errors
+    get firstName(){
+      return this.applyForm.get('firstName')
+    }
 }
