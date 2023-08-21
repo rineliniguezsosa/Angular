@@ -41,4 +41,8 @@ export class DetailsComponent {
     get lastName(){
       return this.applyForm.get('lastName')
     }
+
+    get email(){
+      return this.applyForm.get('email')
+    }
 }
