@@ -37,4 +37,8 @@ export class DetailsComponent {
     get firstName(){
       return this.applyForm.get('firstName')
     }
+
+    get lastName(){
+      return this.applyForm.get('lastName')
+    }
 }
