@@ -122,6 +122,8 @@ export class HomeComponentComponent {
   }
 
   filtercitys(ciudad:string){
-    console.log(ciudad)
+    if(!ciudad){
+      this.filteredLocationList = this.housingLocationList
+    }
   }
 }
