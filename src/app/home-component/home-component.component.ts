@@ -114,7 +114,7 @@ export class HomeComponentComponent {
   housingLocationList:Housinglocation[] = [] //inicializando housingLocationList como un array vacio
   housingService:HousingService = inject(HousingService) //extraemos la información de los servicios
   filteredLocationList:Housinglocation[] = [] //filtrado de los elementos
-  public value = "rinel iñiguez" //Propiedad vinculada
+  //public value = "rinel iñiguez" //Propiedad vinculada
 
   constructor(){
     this.housingLocationList = this.housingService.getAllHousingLocations();
