@@ -118,5 +118,6 @@ export class HomeComponentComponent {
 
   constructor(){
     this.housingLocationList = this.housingService.getAllHousingLocations();
+    this.filteredLocationList = this.housingLocationList;
   }
 }
