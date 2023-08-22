@@ -120,4 +120,8 @@ export class HomeComponentComponent {
     this.housingLocationList = this.housingService.getAllHousingLocations();
     this.filteredLocationList = this.housingLocationList;
   }
+
+  filtercitys(ciudad:string){
+    console.log(ciudad)
+  }
 }
