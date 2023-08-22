@@ -125,5 +125,7 @@ export class HomeComponentComponent {
     if(!ciudad){
       this.filteredLocationList = this.housingLocationList
     }
+
+    this.filteredLocationList = this.housingLocationList.filter(citys => citys.city.toLowerCase().includes(ciudad.toLowerCase()))
   }
 }
