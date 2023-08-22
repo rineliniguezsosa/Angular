@@ -19,9 +19,9 @@ export class DetailsComponent {
       this.housingLocation = this.housingService.getHousingLocationById(housingLocationId)
 
       this.applyForm = this.formservice.group({
-          firstName:['',[Validators.required]],
-          lastName:['',[Validators.required]],
-          email:['',[Validators.required]]
+          firstName:[''],
+          lastName:[''],
+          email:['']
       })
     }
 
