@@ -41,6 +41,11 @@ npm install
 ng serve
 ```
 
+## Ejecutar el servidor JSON
+```shell
+json-server --watch db.json
+```
+
 ## Terminologia angular
 
 - Modulo(uno ó más componentes y servicios)
