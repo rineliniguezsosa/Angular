@@ -117,8 +117,10 @@ export class HomeComponentComponent {
   //public value = "rinel iñiguez" //Propiedad vinculada
 
   constructor(){
-    this.housingLocationList = this.housingService.getAllHousingLocations();
-    this.filteredLocationList = this.housingLocationList;
+    this.housingService.getAllHousingLocations().then((housingLocationList:Housinglocation[])=>{
+        this.housingLocationList = housingLocationList;
+        this.filteredLocationList = housingLocationList;
+    });
   }
 
   filtercitys(ciudad:string){
