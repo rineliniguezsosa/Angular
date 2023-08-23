@@ -112,6 +112,8 @@ export class HousingService {
     }
   ];
 
+  protected url = enviroment.Apilocations;
+  
   getAllHousingLocations():Housinglocation[] {
     return this.housingLocationList;
   }
