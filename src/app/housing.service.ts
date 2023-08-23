@@ -113,8 +113,8 @@ export class HousingService {
   ];
 
   protected url = enviroment.Apilocations;
-  
-  getAllHousingLocations():Housinglocation[] {
+
+  getAllHousingLocations():Promise<Housinglocation[]> {
     return this.housingLocationList;
   }
 
