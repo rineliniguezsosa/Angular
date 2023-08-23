@@ -119,7 +119,7 @@ export class HousingService {
     return await data.json() ?? []
   }
 
-  getHousingLocationById(id: number):Housinglocation | undefined {
+  getHousingLocationById(id: number):Promise<Housinglocation | undefined> {
     return this.housingLocationList.find(housingLocation => housingLocation.id === id);
   }
 
