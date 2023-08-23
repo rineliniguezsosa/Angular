@@ -124,7 +124,7 @@ export class HousingService {
     return await data.json() ?? {};
   }
 
-  submitForm():void{
+  submitForm(firstName: string, lastName: string, email: string):void{
 
   }
 }
