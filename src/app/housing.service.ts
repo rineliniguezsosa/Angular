@@ -125,6 +125,6 @@ export class HousingService {
   }
 
   submitForm(firstName: string, lastName: string, email: string):void{
-
+    console.log("fatos del formulario",firstName,lastName,email);
   }
 }
