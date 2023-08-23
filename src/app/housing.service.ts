@@ -119,8 +119,8 @@ export class HousingService {
     return await data.json() ?? []
   }
 
-  getHousingLocationById(id: number):Promise<Housinglocation | undefined> {
-    return this.housingLocationList.find(housingLocation => housingLocation.id === id);
+  async getHousingLocationById(id: number):Promise<Housinglocation | undefined> {
+    const data = await fetch(`${this.url}/${id}`)
   }
 
   submitForm():void{
