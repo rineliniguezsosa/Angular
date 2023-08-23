@@ -16,7 +16,9 @@ export class DetailsComponent {
     applyForm:FormGroup;
     constructor(private formservice:FormBuilder){
       const housingLocationId = Number(this.route.snapshot.params['id'])
-      this.housingLocation = this.housingService.getHousingLocationById(housingLocationId)
+      this.housingService.getHousingLocationById(housingLocationId).then((housingLocation)=>{
+        this.housingLocation = housingLocation;
+      })
 
       this.applyForm = this.formservice.group({
           firstName:[''],
