@@ -114,8 +114,8 @@ export class HousingService {
 
   protected url = enviroment.Apilocations;
 
-  getAllHousingLocations():Promise<Housinglocation[]> {
-    return this.housingLocationList;
+  async getAllHousingLocations():Promise<Housinglocation[]> {
+    const data = await fetch(this.url)
   }
 
   getHousingLocationById(id: number):Housinglocation | undefined {
